@@ -1,122 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Yugesh Poudel</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foody</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="foody.css" />
   </head>
   <body>
-    <nav id="navbar">
-      <div class="logo">
-        <img src="Images/logo.png" alt="Foody" />
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/yugesh.45d/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/yugesh_45d"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/yugesh_45d/"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-<ul>
-        <li class="item" id="item1"><a href="#home">Home</a></li>
-        <li class="item" id="item2"><a href="#Features-container">Features</a></li>
-        <li class="item" id="item3"><a href="#clients-container">Clients</a></li>
-        <li class="item" id="item4"><a href="#contact-container">Contact Us</a></li>
-      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
     </nav>
-    <section id="home">
-      <h1>Foody: Delicious food, made just for you</h1>
-      <p>
-        Nourishing the body and delighting the palate with an artful blend of
-        fresh, wholesome ingredients.
-      </p>
-      <p>Elevating everyday eating with delicious, wholesome food.</p>
-      <button class="btn">Order Now</button>
-    </section>
 
-    <section id="Features-container">
-      <h1>Our Features</h1>
-      <div id="Features">
-        <div class="box" id="box1">
-          <img src="Images/Food.png" alt="Food" />
-          <h2 class="secondary">Catering</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            architecto reprehenderit fugit minus consectetur modi recusandae
-            doloribus, ex maiores iure. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, in. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Animi, iste!
-          </p>
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Yugesh Poudel</div>
+          <div class="text-three">Software Developer</div>
+          <div class="text-four">From Nepal</div>
         </div>
-        <div class="box" id="box1">
-          <img src="Images/cake.png" alt="Bulk" />
-          <h2 class="secondary">Bulk Ordering</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            architecto reprehenderit fugit minus consectetur modi recusandae
-            doloribus, ex maiores iure. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, in.Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Animi, iste!
-          </p>
-        </div>
-        <div class="box" id="box1">
-          <img src="Images/Delivery.png" alt="Delivery" />
-          <h2 class="secondary">Food Delivery</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            architecto reprehenderit fugit minus consectetur modi recusandae
-            doloribus, ex maiores iure. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, in.Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Animi, iste!
-          </p>
+        <div class="button">
+          <button>Hire Me</button>
         </div>
       </div>
     </section>
 
-    <section id="clients-container">
-      <h1>Our Clients</h1>
-      <div id="clients">
-        <div>
-          <img src="Images/Apple.png" />
-        </div>
-        <div>
-          <img src="Images/Google.png" />
-        </div>
-        <div>
-          <img src="Images/Twitter.png" />
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Code Maestro: Passionate Software Wizard</div>
+            <p>
+              As a Code Maestro, I'm driven by an insatiable passion for crafting elegant and efficient software solutions. With each line of code, I weave together creativity, innovation, and technical prowess to bring ideas to life. As a dedicated Software Wizard, I thrive on tackling complex challenges head-on, continuously pushing the boundaries of what's possible in the digital realm. My unwavering commitment to excellence and my relentless pursuit of perfection make me an invaluable asset in any development endeavor.
+            </p>
+            <div class="button">
+              <button>Download CV</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-<section id="contact-container">
-  <h1>Contact us</h1>
-     <div id="contact"> <form action="Aile_banako_xaina.php">
-      <div class="contact-form">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"/>
-        </form>
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Empowering Digital Experiences Through Mastery</div>
+            <p>In my toolkit, I wield a versatile array of skills essential for modern software development. Proficient in Flutter, Firebase, and JavaScript, I specialize in crafting dynamic and responsive user interfaces that seamlessly blend aesthetics with functionality. With a keen eye for detail and a deep understanding of UI/UX principles, I transform design concepts into immersive digital experiences. Additionally, my expertise in HTML and CSS allows me to build robust web applications with precision and finesse. Whether it's creating sleek mobile apps or intuitive web interfaces, I bring a passion for innovation and a commitment to excellence to every project I undertake.</p>
+            <div class="experience">
+              <div class="num">2</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Flutter</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">UI UX Design</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Firebase</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Html, Css & Js</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact-form">
-  <label for="email">Email</label>
-  <input
-    type="email"
-    id="email"
-    name="email"
-    placeholder="Enter your email"
-  />
-</div>
-<div class="contact-form">
-<label for="message">Message</label>
-<textarea name="message" id="message" cols="24" rows="8" placeholder="Enter your message"></textarea>
-</div>
-<button id="btn">Submit Now</button>
-</section>
+    </section>
 
-<footer>
-  <div>Copyright &copy; FOODY All rights reserved!</div>
-</footer>
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">App Devlopment</div>
+            <p>Crafting intuitive experiences for mobile platforms with precision and innovation.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">UI UX Design</div>
+            <p>Designing intuitive interfaces that captivate users and enhance usability.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Web Developement</div>
+            <p> Building dynamic and responsive websites for seamless online experiences.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Graphics Design</div>
+            <p>Creating visually stunning visuals that communicate effectively and captivate audiences.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Software Development</div>
+            <p>Building robust and scalable software solutions to address complex challenges.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Debugging</div>
+            <p>Identifying and resolving technical issues with precision and efficiency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>If you're seeking a dedicated and skilled collaborator, look no further. With a passion for excellence and a commitment to delivering top-notch results, I'm ready to join forces with you. Together, we can tackle challenges, innovate solutions, and achieve success. Let's embark on this journey together and make our collaboration a resounding success.</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Yugesh Poudel</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
